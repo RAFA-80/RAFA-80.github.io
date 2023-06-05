@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300;600&family=Roboto:wght@300;400;700&display=swap');
+:root{
+    --coloTextos: #49454567;
+}
+
+body {
+    font-family: 'Roboto';
+    background: #7b4397;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #dc2430, #7b4397);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #dc2430, #7b4397);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav-link--menu {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+  }
+  
+  .nav-items {
+    margin-right: 20px;
+  }
+  
+  .nav-links {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+  }
+
+  .inicio {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  
+
+h2{
+    text-align: center;
+    font-weight: 700;
+}
+
+form{
+    background: white;
+    padding: 40px 0;
+    box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
+
+.form-comntrol{
+   width: 100%;
+   margin: auto;    
+}
+
+form .grupo{
+    position: relative;
+    margin: 45px;
+}
+
+input, textarea{
+    background: none;
+    color: black;
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid var(--coloTextos);
+
+}
+
+input:focus{
+    outline: none;
+    color: grey;
+}
+
+label{
+    color: darkcyan;
+    font-size: 16px;
+    position: relative;
+    left: 5px;
+    bottom: 0;
+    transition: 0.5s ease-in-out all;
+    pointer-events: none;
+}
+
+
+
+.warnings{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: violet;
+    padding-top: 20px;
+}
+
+button{
+    font-family: 'Roboto';
+    background: #7b4397;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #dc2430, #7b4397);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #dc2430, #7b4397);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: none;
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    color: white;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+}
